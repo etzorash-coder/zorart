@@ -5,14 +5,14 @@ html, body {
 }
 
 body {
-    background-color: #171717;
+    background-color: #000000;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 #main-content {
-    color: white;
+    color: rgb(235, 0, 180);
     height: 40%;
     width: 40%;
     margin-left: auto;
@@ -33,7 +33,7 @@ body {
     grid-column: span 4;
     grid-row: span 5;
     position: relative;
-    border: 1px solid black;
+    border: 1px solid rgb(216, 56, 168);
     border-radius: 5% 0 0 0;
 
     overflow: hidden;
@@ -93,7 +93,7 @@ img:hover {
     justify-content: center;
     display: flex;
     font-family: roboto;
-    border: 1px solid black;
+    border: 1px solid rgb(213, 47, 186);
 }
 
 #navigation li:first-child {
@@ -111,7 +111,7 @@ img:hover {
 }
 
 #navigation li:hover {
-    color: rgb(79, 177, 37);
+    color: rgb(209, 81, 188);
 }
 
 #social-media {
@@ -134,7 +134,7 @@ img:hover {
 }
 
 .social-media-btn:hover{
-    color: cadetblue;
+    color: rgb(209, 98, 192);
 }
 
 #social-media .social-media-btn:first-child {
