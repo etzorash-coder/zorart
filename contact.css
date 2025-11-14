@@ -1,11 +1,13 @@
 label{
     display:block;
+    color: aliceblue;
 }
 textarea{
     display: block;
 }
 h1{
     text-align: center;
+    color: aliceblue;
 }
 form{
     display: flex;
@@ -14,4 +16,10 @@ form{
 }
 input{
     display: block;
+}
+body{
+    background-color: black;
+    width: 40%;
+    left: 30%;
+    position: relative;
 }
