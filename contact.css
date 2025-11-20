@@ -1,13 +1,13 @@
 label{
     display:block;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
 }
 textarea{
     display: block;
 }
 h1{
     text-align: center;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
 }
 form{
     display: flex;
@@ -18,8 +18,9 @@ input{
     display: block;
 }
 body{
-    background-color: black;
-    width: 40%;
-    left: 30%;
+    background-color: rgb(63, 191, 159);
+    width: 20%;
+    left: 50%;
     position: relative;
+    transform: translate(-50%,0);
 }
